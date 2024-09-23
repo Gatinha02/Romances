@@ -1,0 +1,59 @@
+Body{
+color: rgb(255,255,255);
+margin: 0px;
+font-family: "Nerko One", cursive;
+background: black;
+}
+
+header {
+      border-bottom: solid 2px rgb(red, green, blue);
+      padding: 20px;
+      font-size: 30;
+      color: rgb(red, green, blue);
+}
+
+.categoria {
+background-color: rgb(30, 9, 49);
+padding-bottom: 60px;
+padding-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto {
+   margin-right: 5;   
+}
+
+h1 {
+      font-size: 40px;
+}
+
+p {
+      font-size: 20px;
+}
+
+
+
+.categoria-videos {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+}
+
+.categoria {
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+.categoria-videos img {
+      opacity: 0.5;
+      height: 200px;
+
+}
+.categoria-videos img:hover {
+      opacity: 1.0;
+      border: 1px solid rgb(10 , 246, 10);
+}
+.categoria h2 {
+      color:rgb (99, 99, 99);
+}
